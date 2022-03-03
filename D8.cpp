@@ -15,12 +15,12 @@ int main()
     }
     while(getline(cin,name_input)){
         if(employees.find(name_input) !=employees.end()){
+            
             cout<<name_input<<"="<<employees[name]<<endl;
         }
         else{
             cout<<"Not found"<<endl;
         }
     }
-    
     return 0;
 }
