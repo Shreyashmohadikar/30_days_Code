@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int arr[7][7];
+int arr[6][6];
 int sum(int x, int y){
     return arr[x][y] + arr[x][y+1] + arr[x][y+2] 
                  + arr[x+1][y+1] 
