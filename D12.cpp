@@ -13,6 +13,7 @@ class Student : public Person{
     Student(string firstname, string lastname
     int idNumber, vector<int> scores){
         
+        
     }
 
     char calculate(){
@@ -21,7 +22,7 @@ class Student : public Person{
             total += this->testscores[i];
         }
         int average_marks = (total/this->testscores.size());
-        
+
         // cout<<"Grade:"<<average_marks;
     }
 };
