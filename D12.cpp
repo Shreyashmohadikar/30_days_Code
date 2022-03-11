@@ -13,7 +13,6 @@ class Student : public Person{
     Student(string firstname, string lastname
     int idNumber, vector<int> scores){
         
-        
     }
 
     char calculate(){
