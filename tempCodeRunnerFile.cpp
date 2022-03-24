@@ -11,7 +11,7 @@ int main(){
         for(int i = 0; i < n; i++){
             v.push_back(i+1);
         }
-        for(int j = 0; j < v.size() - 1; j++){
+        for(int j = 0; j < v.size(); j++){
             for(int k = j + 1; k < v.size(); k++ ){
                 tmp = v[j] & v[k];
                 if(tmp<k){
